@@ -11,6 +11,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="1.css" rel="stylesheet">
 <title>宝可梦队伍</title>
   </head>
   <body>
@@ -77,7 +79,11 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    <br>
+    <br>
+
     </div>
+
     <!--Jumbotron-->
     <div class="container-fluid">
       <div class="row jumbotron">
@@ -89,8 +95,24 @@
       <a href="#"><button type="btn btn-primary">查看详情</button></a>
       </div>
     </div>
+    <br>
     </div>
 
+    <!---Video -->
+    <button type="button" class="btn btn-outline-primary" data-toggle="collapse" data-target="#collapse">点击</button>
+      <div id="collapse" class="collapse">
+        <div class="container-fluid">
+          <div class="row text-center">
+            <div class="col-12">
+            <div class="embed-responsive embed-responsive-16by9">
+             <iframe class="embed-responsive-item" src="img/pokemon.mp4" allowfullscreen></iframe>
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+      <hr class="my-4">
+      <br>
   <!--- Welcome Section -->
   <div class="container-fluid">
 <div class="row text-center">
@@ -100,35 +122,36 @@
   <div class="col-12">
     <p class="lead">输入其他人公开在互联网上的对战队伍ID后，就可以使用该对战队伍。</p>
   </div>
+
   <!--- Three Column Section -->
     <div class="container-fluid">
       <div class="row text-center">
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
         <h3 class="text-primary">1</h3>
         <img src="img/001.png" width="400" height="300">
           <p>按下X键打开菜单，选择“VS”。</p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
           <h3 class="text-primary">2</h3>
             <img src="img/002.png" width="400" height="300">
           <p>选择“对战竞技场”。</p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
           <h3 class="text-primary">3</h3>
             <img src="img/003.png" width="400" height="300">
           <p>选择“租用队伍”。</p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
           <h3 class="text-primary">4</h3>
             <img src="img/004.png" width="400" height="300">
           <p>选择“管理租用的队伍”。</p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
           <h3 class="text-primary">5</h3>
             <img src="img/005.png" width="400" height="300">
           <p>在“租用1～5”中选择空白的候选框。</p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
           <h3 class="text-primary">6</h3>
             <img src="img/006.png" width="400" height="300">
           <p>输入想要租用的对战队伍ID。</p>
@@ -139,6 +162,7 @@
             <img src="img/007.png" width="400" height="300">
           <p>画面显示对战队伍详情后选择“是”，即可登录队伍。</p>
             <hr class="my-4">
+            <br>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
           <h3 class="text-primary">8</h3>
@@ -146,6 +170,7 @@
           <p>选择已登录的队伍后按A键，即可确认详情或返还队伍。</p>
 
       <hr class="my-4">
+      <br>
     </div>
     <br>
     <br>
@@ -154,8 +179,8 @@
   <div class="row">
     <div class="col-lg-6">
       <h2>如何搭配自己的队伍？</h2>
-      <p>恰恰与流行观念相反，Lorem Ipsum并不是简简单单的随机文本。它追溯于一篇公元前45年的经典拉丁著作，从而使它有着两千多年的岁数。弗吉尼亚州Hampden-Sydney大学拉丁系教授Richard McClintock曾在Lorem Ipsum段落中注意到一个涵义十分隐晦的拉丁词语，“consectetur”，通过这个单词详细查阅跟其有关的经典文学著作原文，McClintock教授发掘了这个不容置疑的出处。Lorem Ipsum始于西塞罗(Cicero)在公元前45年作的“de Finibus Bonorum et Malorum”（善恶之尽）里1.10.32 和1.10.33章节。这本书是一本关于道德理论的论述，曾在文艺复兴时期非常流行。Lorem Ipsum的第一行”Lorem ipsum dolor sit amet..”节选于1.10.32章节。</p>
-      <p>以下展示了自1500世纪以来使用的标准Lorem Ipsum段落，西塞罗笔下“de Finibus Bonorum et Malorum”章节1.10.32 ， 1.10.33的原著作，以及其1914年译自H. Rackham的英文版本。</p>
+      <p>首先，宝可梦的队伍配置可以大体分为两种：战术队和平衡队。其中，战术队是有着明确的战术核心的，例如雨天队。而平衡队则是靠着PM个体的属性优势等等联防进行对战，这也是较为常见的队伍配置。</p>
+      <p>所以，在搭配队伍时，我们需要考虑到PM的属性联防和盲补。举个例子，假设想要使用波克基斯进行对战，那么我们就要根据波克基斯的属性进行联防和盲补。波克基斯的属性是妖精，作为防御方，弱点是毒和钢两系，对虫、格斗和恶系有抗性，龙系的伤害为零。而作为攻击方时，对格斗、龙、恶三系有两倍的伤害量，毒、火和钢三系有抗性。队伍中的其他PM就是根据这个，选择合适的宝可梦作为成员。</p>
 
 <a href="#" class="btn btn-primary">查看更多</a>
 <br>
@@ -166,32 +191,21 @@
       <img src="img/111.png" class="img-fluid">
     </div>
   </div>
+  <br>
+  <br>
+        <hr class="my-4">
+
 </div>
-<br>
-<br>
-      <hr class="my-4">
       <!--- Fixed background-->
       <figure>
         <div class="fixed-wrap">
-          <img src="img/888.png" width="1290" height="1070">
+          <img src="img/888.png" width="2000"class="img-fluid" alt="...">
         </div>
       </figure>
 
 <hr class="my-4">
 
-<!---Click for fun-->
-      <button type="button" class="btn btn-outline-light" data-toggle="collapse" data-target="#collapse">点击</button>
-      <div id="collapse" class="collapse">
-        <div class="container-fluid">
-          <div class="row text-center">
-            <div class="col-12">
-            <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="img/真正的压马路.mp4" allowfullscreen></iframe>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
+
 
       <!--- Meet The Team -->
     <div class="container-fluid">
@@ -209,7 +223,7 @@
           <img class="card-omg-top" src="img/幽灵系.jpeg" class="d-block w-100 img-fluid">
           <div class="card-body">
             <h4 class="card-title">S5 双打三地鼠飞机队</h4>
-            <p class="card-text">三地鼠 波克基斯 班吉拉斯 爱管侍 洛托姆洗衣机 达摩狒狒</p>
+            <p class="card-text">三地鼠 波克基斯 班吉拉斯 爱管侍 清洗洛托姆 达摩狒狒</p>
             <a href="#" class="btn btn-outline-primary">查看详情</a>
           </div>
         </div>
@@ -229,7 +243,7 @@
           <img class="card-omg-top" src="img/幽灵系.jpeg" class="d-block w-100 img-fluid">
           <div class="card-body">
             <h4 class="card-title">S3 双打月伊布队</h4>
-            <p class="card-text">月伊布 重泥挽马 迷拟Q 洛托姆洗衣机 波克基斯 达摩狒狒</p>
+            <p class="card-text">月伊布 重泥挽马 迷拟Q 清洗洛托姆 波克基斯 达摩狒狒</p>
             <a href="#" class="btn btn-outline-primary">查看详情</a>
           </div>
         </div>
@@ -242,8 +256,8 @@
         <div class="card">
           <img class="card-omg-top" src="img/幽灵系.jpeg" class="d-block w-100 img-fluid">
           <div class="card-body">
-            <h4 class="card-title">S4 双打幽灵系战队</h4>
-            <p class="card-text">水晶灯火灵 彷徨夜灵 勾魂眼 多龙巴鲁托 坚盾剑怪 胖嘟嘟</p>
+            <h4 class="card-title">S3 双打弱丁鱼队</h4>
+            <p class="card-text">弱丁鱼 彷徨夜灵 风速狗 拉鲁拉斯 脱戈德玛尔 波克基斯</p>
             <a href="#" class="btn btn-outline-primary">查看详情</a>
           </div>
         </div>
@@ -252,8 +266,8 @@
         <div class="card">
           <img class="card-omg-top" src="img/幽灵系.jpeg" class="d-block w-100 img-fluid">
           <div class="card-body">
-            <h4 class="card-title">S4 双打幽灵系战队</h4>
-            <p class="card-text">水晶灯火灵 彷徨夜灵 勾魂眼 多龙巴鲁托 坚盾剑怪 胖嘟嘟</p>
+            <h4 class="card-title">S3 单打受向循环队</h4>
+            <p class="card-text">百变怪 超坏星 达摩狒狒 加热洛托姆 坚果哑铃 仙子伊布</p>
             <a href="#" class="btn btn-outline-primary">查看详情</a>
           </div>
         </div>
@@ -262,8 +276,8 @@
         <div class="card">
           <img class="card-omg-top" src="img/幽灵系.jpeg" class="d-block w-100 img-fluid">
           <div class="card-body">
-            <h4 class="card-title">S4 双打幽灵系战队</h4>
-            <p class="card-text">水晶灯火灵 彷徨夜灵 勾魂眼 多龙巴鲁托 坚盾剑怪 胖嘟嘟</p>
+            <h4 class="card-title">S5 双打空间大师队</h4>
+            <p class="card-text">西施海壬 彷徨夜灵 炽焰咆哮虎 多龙巴鲁托 修建老匠 切割洛托姆</p>
             <a href="#" class="btn btn-outline-primary">查看详情</a>
           </div>
         </div>
@@ -296,22 +310,36 @@
 <hr class="my-4">
 <!--Footer-->
 <footer>
-  <div class="container-fluid">
-   <div class="row text-center">
-     <div class="col-12">
-       <blockquote class="blockquote text-center">
-
-          <p>555-555-555</p>
-          <p>emai@gmail.com</p>
-        </blockquote>
-      <hr class="my-4">
-     </div>
-     <div class="col-12">
-       <h5>&copy;Hsu99924.com</h5>
-     </div>
-   </div>
+  <div class="container-fluid ">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="img/ball.png" width="60" height="60">
+        <hr class="light">
+        <p>联系电话：15510471833</p>
+        <p>联系邮箱：email@gmai.com</p>
+        <p>联系地址：北京市朝阳区</p>
+      </div>
+      <div class="col-md-4">
+       <h5>时间</h5>
+        <hr class="light">
+        <p>Everytime</p>
+        <p>Everytime</p>
+        <p>Everytime</p>
+      </div>
+      <div class="col-md-4">
+       <h5>服务</h5>
+        <hr class="light">
+        <p>中国，北京，00000</p>
+        <p>中国，福建，00000</p>
+        <p>中国，台湾，00000</p>
+      </div>
+      <div class="col-12">
+        <hr class="light">
+        <h5>&copy;Hsu99924.github.io</h5>
+      </div>
+    </div>
   </div>
-
+</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   </body>
